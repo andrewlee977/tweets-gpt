@@ -1,0 +1,61 @@
+body {
+    background-color: #f1f1f1; /* Light gray background */
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #4285f4; /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+  }
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.header {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.answer-box {
+    width: 400px; /* Adjust the width as desired */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 auto;
+}
+

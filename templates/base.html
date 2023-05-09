@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The AI Race</title>
+    <link rel="icon" href="static/images/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <img src="/static/images/header.png" alt="Description of the image" class="header">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="form-container">
+            <form action="/" method="post">
+                <input type="text" name="question" placeholder="Ask your question" required>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <!-- <div id="data"> -->
+        <div class="answer-box">
+            <h3>{{question}}</h3>
+            <h3>{{answer}}</h3>
+        </div>
+    </div>
+</body>
+</html>
