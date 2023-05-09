@@ -20,6 +20,7 @@ PINECONE_API_ENV = os.getenv('PINECONE_API_ENV')
 # Create a Flask app instance
 app = Flask(__name__, static_folder='static')
 app.debug = True
+server = app.server
 
 
 # Define a route and its corresponding view function
@@ -81,4 +82,4 @@ def get_embeddings(question):
 
 # Run the Flask app
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server(debug=True)

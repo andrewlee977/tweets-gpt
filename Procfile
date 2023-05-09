@@ -1,1 +1,1 @@
-web: gunicorn tweets-gpt:app -t 120
+web: gunicorn app:server --preload
