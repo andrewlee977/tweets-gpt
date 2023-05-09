@@ -1,0 +1,5 @@
+.env
+.ipynb_checkpoints
+__pycache__
+twitter.ipynb
+.DS_Store
