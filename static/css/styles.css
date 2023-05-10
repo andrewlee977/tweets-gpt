@@ -1,6 +1,6 @@
-body {
-    background-color: #f1f1f1; /* Light gray background */
-}
+/* body {
+    background-color: #f1f1f1; /* Light gray background} */
+
 
 /* .container {
     display: flex;
@@ -35,10 +35,10 @@ button[type="submit"] {
     height: 100px;
   }
 
-.container {
+/* .container {
     text-align: center;
     position: relative;
-}
+} */
 
 .header {
     width: 35%;
@@ -57,5 +57,39 @@ button[type="submit"] {
     border: 1px solid #ccc;
     padding: 10px;
     margin: 0 auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Aligns text elements like h2 in the center */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.example-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.examples {
+    display: flex;
+    justify-content: space-between;
+    width: 33.33%;
+    max-width: 100%;
 }
 

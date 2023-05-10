@@ -12,6 +12,7 @@ pandas = "*"
 flask = "*"
 gunicorn = "*"
 openai = "*"
+urllib3 = "==1.26.7"
 
 [dev-packages]
 
