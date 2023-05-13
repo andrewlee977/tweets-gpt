@@ -59,7 +59,7 @@ def get_embeddings(question):
 
     question_embeddings = embed_query['data'][0]['embedding']
 
-    similarity_search = index.query(question_embeddings, top_k=5, include_metadata=True)
+    similarity_search = index.query(question_embeddings, top_k=10, include_metadata=True)
 
     top5 = []
     for sims in similarity_search['matches']:
