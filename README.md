@@ -10,7 +10,9 @@ Answers could improve by indexing more tweets from different accounts, but keepi
 
 ### Improvements
 • Could use metadata in Pinecone - When tweet was tweeted, tweed id, tweet id of the original tweet it's replying to, etc.
+
 • Metadata for segmentation - Partition data by the account it's tweeted by, that way you can search based on account, not by all the tweets in DB
+
 • Always save data that you pull into a raw format, so you don't have to keep calling API and pushing API rate limits
 
 
